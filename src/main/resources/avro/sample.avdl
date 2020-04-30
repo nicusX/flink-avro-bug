@@ -1,0 +1,9 @@
+@namespace("example.avro")
+protocol SampleProtocol {
+
+  record Sample{
+    string id;
+    decimal(9,2) price;
+    timestamp_ms eventTime;
+  }
+}
